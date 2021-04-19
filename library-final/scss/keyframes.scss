@@ -1,0 +1,81 @@
+
+// SPIN
+@keyframes spin {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+// FADE IN
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+// FADE OUT 
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+// WOBBLE 
+@keyframes wobble {
+    0% {transform: rotate(0deg) scale(1);}
+    10% {transform: rotate(-15deg);}
+    20% {transform: rotate(15deg);}
+    30% {transform: rotate(-15deg) scale(1.2);}
+    40% {transform: rotate(10deg);}
+    50% {transform: rotate(0deg) scale(1);}
+    100% {transform: rotate(0deg);}
+}
+
+// DANCE
+@keyframes dance {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.7);}
+    100% {transform: scale(1);}
+}
+
+// SHAKE 
+@keyframes shake {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-15px);}
+    40% {transform: translateX(15px);}
+    60% {transform: translateX(-15px);}
+    80% {transform: translateX(15px);}
+    100% {transform: translateX(0px);}
+}
+
+// FLOAT
+@keyframes float {
+    0% {transform: translateY(0px);}
+    20% {transform: translateY(-15px);}
+    40% {transform: translateY(15px);}
+    60% {transform: translateY(-15px);}
+    80% {transform: translateY(15px);}
+    100% {transform: translateY(0px);}
+}
+
+// ACCORDION  
+@keyframes accordion {
+    0% {letter-spacing: normal;}
+    30% {letter-spacing: 15px;}
+    85% {letter-spacing: 8px;}
+}
+
+// CLOSE
+@keyframes close {
+    0% {letter-spacing: normal;}
+    25% {letter-spacing: 3px;}
+    50% {letter-spacing: -10px;}
+    100% {letter-spacing: -10px;
+        opacity: 0;}
+}
+
+// OPEN
+@keyframes open {
+    0% {letter-spacing: -10px;
+        opacity: 0;}
+    30% {letter-spacing: -10px;}
+    70% {letter-spacing: 3px;}
+    100% {letter-spacing: normal;}
+}

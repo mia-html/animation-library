@@ -1,0 +1,90 @@
+
+// SPIN
+.saenimate {
+    &.spin,
+    &.spin-hover:hover,
+    &.spin-focus:focus {
+    animation-name: spin;
+    }
+}
+
+// FADE IN
+.saenimate {
+    &.fadeIn,
+    &.fadeIn-hover:hover,
+    &.fadeIn-focus:focus {
+    animation-name: fadeIn;
+    }
+}
+
+// FADE OUR
+.saenimate {
+    &.fadeOut,
+    &.fadeOut-hover:hover,
+    &.fadeOut-focus:focus {
+    animation-name: fadeOut;
+    }
+}
+
+// WOBBLE
+.saenimate {
+    &.wobble,
+    &.wobble-hover:hover,
+    &.wobble-focus:focus {
+    animation-name: wobble;
+    }
+}
+
+// DANCE
+.saenimate {
+    &.dance,
+    &.dance-hover:hover,
+    &.dance-focus:focus {
+    animation-name: dance;
+    }
+}
+
+// SHAKE 
+.saenimate {
+    &.shake,
+    &.shake-hover:hover,
+    &.shake-focus:focus {
+    animation-name: shake;
+    }
+}
+
+// FLOAT 
+.saenimate {
+    &.float,
+    &.float-hover:hover,
+    &.float-focus:focus {
+    animation-name: float;
+    }
+}
+
+// ACCORDION 
+.saenimate {
+    &.accordion,
+    &.accordion-hover:hover,
+    &.accordion-focus:focus {
+    animation-name: accordion;
+    }
+}
+
+// CLOSE
+.saenimate {
+    &.close,
+    &.close-hover:hover,
+    &.close-focus:focus {
+    animation-name: close;
+    }
+}
+
+// OPEN
+.saenimate {
+    &.open,
+    &.open-hover:hover,
+    &.open-focus:focus {
+    animation-name: open;
+    }
+}

@@ -1,0 +1,16 @@
+- You need to link saenimate.css to the desired HTML file.
+
+- Saenimate animations work only if .saenimate class is applied to an element before
+defining the animation and adding other classes.
+
+-This library has ten animations. The animation classes are '.spin', '.fadeIn', '.fadeOut',
+'.wobble', '.dance', '.shake', '.float', '.open', '.close' and '.accordion' (listed in the
+order as displayed on the page).
+
+-Each can be changed in many ways. Their duration can be altered (1-5 seconds using '.sec1',
+'.sec2', '.sec3', '.sec4' and '.sec5' classes), as well as the number of times they can be
+repeated (this can also be done using classes '.repeat1', '.repeat2', .'repeat3', '.repeat4',
+'.repeat5' and '.infinite').
+
+-Each animation has a hover and a focus state and a class for each ('.animationName-hover'
+or '.animationName-focus')

@@ -1,0 +1,30 @@
+
+.saenimate {
+    &.repeat1 {
+    animation-iteration-count: 1;
+    }
+
+    &.repeat2 {
+    animation-iteration-count: 2;
+    }
+   
+    &.repeat3 {
+    animation-iteration-count: 3;
+    }
+
+    &.repeat4 {
+    animation-iteration-count: 4;
+    }
+
+    &.repeat5 {
+    animation-iteration-count: 5;
+    }
+
+    &.infinite {
+    animation-iteration-count: infinite;
+    }
+
+    &.forwards {
+    animation-fill-mode: forwards;
+    }
+}

@@ -1,0 +1,218 @@
+.saenimate.sec1 {
+  animation-duration: 1s;
+}
+.saenimate.sec2 {
+  animation-duration: 2s;
+}
+.saenimate.sec3 {
+  animation-duration: 3s;
+}
+.saenimate.sec4 {
+  animation-duration: 4s;
+}
+.saenimate.sec5 {
+  animation-duration: 5s;
+}
+
+.saenimate.repeat1 {
+  animation-iteration-count: 1;
+}
+.saenimate.repeat2 {
+  animation-iteration-count: 2;
+}
+.saenimate.repeat3 {
+  animation-iteration-count: 3;
+}
+.saenimate.repeat4 {
+  animation-iteration-count: 4;
+}
+.saenimate.repeat5 {
+  animation-iteration-count: 5;
+}
+.saenimate.infinite {
+  animation-iteration-count: infinite;
+}
+.saenimate.forwards {
+  animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  10% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(-15deg) scale(1.2);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes dance {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-15px);
+  }
+  40% {
+    transform: translateX(15px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+  80% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-15px);
+  }
+  40% {
+    transform: translateY(15px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+  80% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes accordion {
+  0% {
+    letter-spacing: normal;
+  }
+  30% {
+    letter-spacing: 15px;
+  }
+  85% {
+    letter-spacing: 8px;
+  }
+}
+@keyframes close {
+  0% {
+    letter-spacing: normal;
+  }
+  25% {
+    letter-spacing: 3px;
+  }
+  50% {
+    letter-spacing: -10px;
+  }
+  100% {
+    letter-spacing: -10px;
+    opacity: 0;
+  }
+}
+@keyframes open {
+  0% {
+    letter-spacing: -10px;
+    opacity: 0;
+  }
+  30% {
+    letter-spacing: -10px;
+  }
+  70% {
+    letter-spacing: 3px;
+  }
+  100% {
+    letter-spacing: normal;
+  }
+}
+.saenimate.spin, .saenimate.spin-hover:hover, .saenimate.spin-focus:focus {
+  animation-name: spin;
+}
+
+.saenimate.fadeIn, .saenimate.fadeIn-hover:hover, .saenimate.fadeIn-focus:focus {
+  animation-name: fadeIn;
+}
+
+.saenimate.fadeOut, .saenimate.fadeOut-hover:hover, .saenimate.fadeOut-focus:focus {
+  animation-name: fadeOut;
+}
+
+.saenimate.wobble, .saenimate.wobble-hover:hover, .saenimate.wobble-focus:focus {
+  animation-name: wobble;
+}
+
+.saenimate.dance, .saenimate.dance-hover:hover, .saenimate.dance-focus:focus {
+  animation-name: dance;
+}
+
+.saenimate.shake, .saenimate.shake-hover:hover, .saenimate.shake-focus:focus {
+  animation-name: shake;
+}
+
+.saenimate.float, .saenimate.float-hover:hover, .saenimate.float-focus:focus {
+  animation-name: float;
+}
+
+.saenimate.accordion, .saenimate.accordion-hover:hover, .saenimate.accordion-focus:focus {
+  animation-name: accordion;
+}
+
+.saenimate.close, .saenimate.close-hover:hover, .saenimate.close-focus:focus {
+  animation-name: close;
+}
+
+.saenimate.open, .saenimate.open-hover:hover, .saenimate.open-focus:focus {
+  animation-name: open;
+}
+
+/*# sourceMappingURL=saenimate.css.map */
